@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "1c50153c-2bd1-4631-b579-8fc725832bc0",
+		"name": "star-wars",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "people",
+			"item": [
+				{
+					"name": "get-person",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}people/8",
+							"host": [
+								"{{base_url}}people"
+							],
+							"path": [
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-people",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}people",
+							"host": [
+								"{{base_url}}people"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "planets",
+			"item": [
+				{
+					"name": "get-planet",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}planets/5",
+							"host": [
+								"{{base_url}}planets"
+							],
+							"path": [
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-planets",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}planets",
+							"host": [
+								"{{base_url}}planets"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "films",
+			"item": [
+				{
+					"name": "get-film",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}films/5",
+							"host": [
+								"{{base_url}}films"
+							],
+							"path": [
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-films",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}films",
+							"host": [
+								"{{base_url}}films"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "species",
+			"item": [
+				{
+					"name": "get-specie",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}species/3",
+							"host": [
+								"{{base_url}}species"
+							],
+							"path": [
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-species",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}species",
+							"host": [
+								"{{base_url}}species"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "vehicles",
+			"item": [
+				{
+					"name": "get-vehicle",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}vehicles/6",
+							"host": [
+								"{{base_url}}vehicles"
+							],
+							"path": [
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-vehicles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}vehicles/?page=2",
+							"host": [
+								"{{base_url}}vehicles"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "starships",
+			"item": [
+				{
+					"name": "get-starship",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}starships/2",
+							"host": [
+								"{{base_url}}starships"
+							],
+							"path": [
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-starships",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}starships",
+							"host": [
+								"{{base_url}}starships"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "get-api-resources",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}",
+					"host": [
+						"{{base_url}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
